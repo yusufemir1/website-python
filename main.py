@@ -21,7 +21,7 @@ def home():
 
 @app.route("/yazi_tura")
 def yazi_tura():
-    sonuc = random.choice(["Yazı", "Tura"])
+    sonuc = random.choice(["Yazı", "Tura", 'Yazı mı tura mı'])
     return f'<p>{sonuc}</p>'
 
 if __name__ == "__main__":
